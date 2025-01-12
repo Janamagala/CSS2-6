@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#maindiv {
+    max-width: 1920px;
+    width: 100%;
+    text-align: center;
+}
+
+#divcontainer {
+    max-width: 1604px;
+    width: 100%;
+    text-align: center;
+    background-color: #E4EBFF;
+    padding: 96px;
+}
+
+#insidesiv {
+    max-width: 1280px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin: 96px;
+}
+
+#features {
+    font-size: 16px;
+    color: #6941C6;
+    padding-top: 96px;
+    margin-top: 96px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #181D27;
+    margin-top: 12px;
+}
+
+#powerful {
+    font-size: 20px;
+    color: #535862;
+    margin-top: 32px;
+    margin-bottom: 96px;
+}
+
+#shareteam {
+    max-width: 553px;
+    width: 100%;
+    display: inline-block;
+}
+
+#chatcircle {
+    margin-top: 89px;
+    max-width: 553px;
+    width: 100%;
+    text-align: left;
+    margin-left: 32px;
+    display: inline-block;
+}
+
+#shareteam {
+    max-width: 553px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 32px;
+    display: inline-block;
+}
+
+#sharingteam {
+    max-width: 553px;
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 32px;
+    display: inline-block;
+}
+
+#shareteaminbox {
+    font-size: 30px;
+    display: inline-block;
+}
+
+#whether {
+    font-size: 18px;
+    color: #535862;
+    margin-top: 16px;
+    display: inline-block;
+}
+
+#chatlist {
+    max-width: 553px;
+    margin-left: 48px;
+    margin-top: 32px;
+    margin-bottom: 89px;
+    display: inline-block;
+}
+
+#listitem {
+    font-size: 18px;
+    color: #535862;
+    display: inline-block;
+}
+
+#dashboard {
+    display: inline-block;
+    max-width: 457px;
+    width: 100%;
+    margin-left: 32px;
+}
+
+#dashboardone {
+    display: inline-block;
+    max-width: 553px;
+    width: 100%;
+}
