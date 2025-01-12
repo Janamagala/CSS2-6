@@ -4,115 +4,164 @@
     box-sizing: border-box;
 }
 
-#maindiv {
+.main-container {
     max-width: 1920px;
     width: 100%;
-    text-align: center;
+    height: 2676px;
+    background: #FFF;
+    display: inline-block;
 }
 
-#divcontainer {
-    max-width: 1604px;
-    width: 100%;
-    text-align: center;
-    background-color: #E4EBFF;
-    padding: 96px;
+.main-section {
+    width: 1604px;
+    height: 2344px;
+    margin-top: 64px;
+    margin-left: 50px;
+    background: #E4EBFF;
+    display: inline-block;
+
 }
 
-#insidesiv {
-    max-width: 1280px;
-    text-align: center;
-    background-color: #FFFFFF;
-    margin: 96px;
-}
-
-#features {
-    font-size: 16px;
-    color: #6941C6;
-    padding-top: 96px;
+.feature-section {
+    width: 1280px;
+    height: 2152px;
+    background: #FFF;
     margin-top: 96px;
+    margin-left: 162px;
 }
 
-h1 {
+.header {
+    width: 1280px;
+    height: 136px;
+}
+
+.header-content {
+    width: 1216px;
+    height: 136px;
+    margin-left: 32px;
+}
+
+.header-text {
+    width: 929px;
+    height: 24px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 0 143px;
+    color: #6941C6;
+    font-size: 16px;
+}
+
+.header-title {
+    width: 929px;
+    height: 44px;
+    display: inline-block;
+    margin: 0 143px;
+    align-items: center;
+    text-align: center;
     font-size: 40px;
     color: #181D27;
     margin-top: 12px;
 }
 
-#powerful {
-    font-size: 20px;
-    color: #535862;
+.header-span {
+    width: 1216px;
+    height: 24px;
+    display: inline-block;
     margin-top: 32px;
-    margin-bottom: 96px;
+    text-align: center;
+    color: #535862;
+    font-size: 18px;
 }
 
-#shareteam {
-    max-width: 553px;
-    width: 100%;
+.article {
+    width: 1280px;
+    height: 512px;  
+    margin-top: 96px;
+    vertical-align: middle;
+}
+
+.article-content {
+    width: 560px;
+    height: 334px; 
     display: inline-block;
-}
-
-#chatcircle {
-    margin-top: 89px;
-    max-width: 553px;
-    width: 100%;
-    text-align: left;
+    margin-top: 86px;
     margin-left: 32px;
+}
+
+.article-image {
+    width: 752.941px;
+    height: 501.961px;
+    background-image: url(./images/Screen\ mockup\ light\ modAime\ \(REPLACE\).png);
+    background-repeat: no-repeat;
+    margin-top: -420px;
+    margin-left: 690px;
     display: inline-block;
 }
 
-#shareteam {
-    max-width: 553px;
-    width: 100%;
-    text-align: left;
+.icon-text {
+    width: 560px;
+    height: 168px; 
+}
+
+.icon-div {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    background: #F4EBFF;  
+}
+
+.icon-div  img{
+    padding-top: 13px;
+    padding-left: 12px;
+}
+
+.article-title{
+    width: 560px;
+    height: 38px ;
     margin-top: 20px;
-    margin-left: 32px;
-    display: inline-block;
-}
-
-#sharingteam {
-    max-width: 553px;
-    width: 100%;
-    text-align: left;
-    margin-top: 20px;
-    margin-left: 32px;
-    display: inline-block;
-}
-
-#shareteaminbox {
+    color: #181D27;
     font-size: 30px;
-    display: inline-block;
 }
 
-#whether {
+.article-text{
+    width: 560px;
+    height: 56px;
     font-size: 18px;
     color: #535862;
     margin-top: 16px;
-    display: inline-block;
 }
 
-#chatlist {
-    max-width: 553px;
-    margin-left: 48px;
+.article-lists{
+    width: 560px;
+    height: 124px;
+    list-style: none;
     margin-top: 32px;
-    margin-bottom: 89px;
-    display: inline-block;
 }
 
-#listitem {
+.list-items{
+    width: 544px;
+    height: 28px ;
+    margin-top: 16px;
+}
+
+.list-items p{
+    width: 504px;
+    height: 28px;
     font-size: 18px;
-    color: #535862;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+.article-image-two{
+    width: 752.941px;
+    height: 501.961px;
+    background-image: url(./images/Screen\ mockup\ light\ modAime\ \(REPLACE\).png);
+    background-repeat: no-repeat;
     display: inline-block;
 }
 
-#dashboard {
-    display: inline-block;
-    max-width: 457px;
-    width: 100%;
-    margin-left: 32px;
-}
-
-#dashboardone {
-    display: inline-block;
-    max-width: 553px;
-    width: 100%;
+.article-content-two{
+    margin-top: -400px;
+    margin-left: 700px;
 }
